@@ -16,7 +16,7 @@ public class Author {
     private String firstName;
     private String lastName;
 
-    @ManyToMany(mappedBy = "authors")
+    @ManyToMany(mappedBy = "authors") // mean this relation of type many to many is mapped by the authors field in the Book class
     private Set<Book> books  = new HashSet<>();
 
     public Author() {
