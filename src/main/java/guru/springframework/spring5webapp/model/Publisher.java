@@ -12,7 +12,7 @@ public class Publisher {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    private  String name;
+    private String name;
     private String address;
 
 
